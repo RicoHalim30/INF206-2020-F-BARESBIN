@@ -1,0 +1,52 @@
+@media(max-width: 720px) {
+    #card {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .nav-item {
+        margin-top: 10px;
+    }
+}
+.jumbotron {
+    background-image: url(../img/bg.svg);
+    height: 100vh;
+    /*background-size: cover;*/
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    background-image: linear-gradient(to top, rgba(94, 114, 228, 1), rgba(130, 94, 228, 0.2));
+}
+.jumbotron .landing {
+    margin-top: 4rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 100 !important;
+}
+.landing .nama {
+    font-size: 5.5rem;
+    font-weight: 650;
+    margin-top: 0px;
+    line-height: 5rem;
+}
+.jumbotron hr {
+    border-color: #ffc107;
+    width: 8rem;
+    border-width: 3px;
+}
+.jumbotron .lead {
+    font-size: 1.7rem;
+}
+.navbar {
+    /*margin-top: 2rem;*/
+    /*height: 3.7rem;*/
+}
